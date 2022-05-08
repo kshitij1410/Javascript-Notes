@@ -1,0 +1,94 @@
+
+document.getElementById()
+document.getElementByClassName()
+document.getElementByTagName()
+document.querySelector();
+document.querySelectorAll();
+document.createElement()
+document.textContent()
+addEventListener
+Map
+filter
+forEach
+parentNode
+firstChild
+firstElementChild
+lastChild
+lastElementChild
+
+previousSibling
+previousElementSibling
+children
+childNodes
+
+appendChild
+createTextNode
+e.target----its give the actual element ,like <h1>kkk</h1>
+e.target.value
+e.clientX-from browserWindow 
+e.clientY from browserWindow
+e.offsetX from className
+e.offsetY from className
+
+
+
+
+
+////////////////////////////not read////////////////////
+e.altKey, ctrlKey & shiftKey
+
+Mouse Events
+dblclick
+mousedown
+mouseup
+mouseenter
+mouseleave
+mouseover & mouseout
+mousemove
+
+Keyboard & Input Events
+keydown
+keyup
+keypress
+focus & blur
+cut
+paste
+input
+change
+submit
+
+
+
+
+
+
+
+
+
+
+/*
+var itemList = document.querySelector('#items');
+
+// parentNode
+console.log(itemList.parentNode); // print the parent node of this id 
+//parentElement is also same parentNode
+
+//childNode
+console.log(itemList.childNodes)  //print all children //it return node collection
+console.log(itemList.children);   //print all children //it return html collection
+
+//first child
+console.log(itemList.firstChild);
+console.log(itemList.firstElementChild);
+
+
+//lastElement
+console.log(itemList.lastElementChild);
+
+//nextsibling
+console.log(itemList.nextSibling);
+console.log(itemList.nextElementSibling);
+
+//previoussibling
+console.log(itemList.previousSibling);
+console.log(itemList.previousElementSibling);
